@@ -681,3 +681,69 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 367ms (Views: 361.1ms | ActiveRecord: 0.0ms | Allocations: 47046)
 
 
+Started GET "/" for 127.0.0.1 at 2022-12-28 16:20:15 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 80.5ms | Allocations: 14837)
+Completed 200 OK in 86ms (Views: 83.1ms | Allocations: 15436)
+
+
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (3.0ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Arroz à Piamontese"], ["created_at", "2022-12-28 19:22:49.184163"], ["updated_at", "2022-12-28 19:22:49.184163"]]
+  [1m[36mTRANSACTION (30.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-12-28 16:22:54 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 2486)
+Completed 200 OK in 20ms (Views: 16.6ms | Allocations: 2727)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-28 16:22:56 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 2484)
+Completed 200 OK in 24ms (Views: 17.8ms | Allocations: 2729)
+
+
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (2.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Bacalhoada"], ["created_at", "2022-12-28 19:24:25.376921"], ["updated_at", "2022-12-28 19:24:25.376921"]]
+  [1m[36mTRANSACTION (17.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-12-28 16:25:11 -0300
+Processing by HomeController#index as HTML
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 2856)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 2923)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 4.3ms | Allocations: 7229)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<Recipe:0x00007f362c233660>):
+    1: <h1>Livro de Receitas</h1>
+    2: 
+    3: <dl>
+    4:     <% @recipes.each do | recipe | %>
+    5:       <dt><%= recipe.name %></dt>      
+    6: 
+    7:     <% end %>
+  
+app/views/home/index.html.erb:4
+Started GET "/" for 127.0.0.1 at 2022-12-28 16:25:39 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 20.6ms | Allocations: 1889)
+  Rendered layout layouts/application.html.erb (Duration: 87.9ms | Allocations: 16803)
+Completed 200 OK in 103ms (Views: 92.9ms | ActiveRecord: 4.9ms | Allocations: 17766)
+
+
