@@ -1,0 +1,9 @@
+<h1>Livro de Receitas</h1>
+
+<dl>
+    <% @recipes.each do | recipe | %>
+      <dt><%= recipe.name %></dt>
+      <dd><%= recipe.recipe_type %></dd>
+
+    <% end %>
+</dl>
