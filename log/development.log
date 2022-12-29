@@ -747,3 +747,288 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 103ms (Views: 92.9ms | ActiveRecord: 4.9ms | Allocations: 17766)
 
 
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (2.2ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Batata Rápida"], ["created_at", "2022-12-28 19:31:37.710299"], ["updated_at", "2022-12-28 19:31:37.710299"]]
+  [1m[36mTRANSACTION (18.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-12-28 16:31:42 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 674)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 3159)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 1.4ms | Allocations: 3415)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (2.2ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Brigadeiro sem leite condensado"], ["created_at", "2022-12-28 19:32:16.187199"], ["updated_at", "2022-12-28 19:32:16.187199"]]
+  [1m[36mTRANSACTION (18.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (2.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Broa de Fubá"], ["created_at", "2022-12-28 19:32:41.962742"], ["updated_at", "2022-12-28 19:32:41.962742"]]
+  [1m[36mTRANSACTION (16.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (1.9ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Língua ao molho de hortelã"], ["created_at", "2022-12-28 19:33:03.300690"], ["updated_at", "2022-12-28 19:33:03.300690"]]
+  [1m[36mTRANSACTION (25.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (4.1ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Lombo"], ["created_at", "2022-12-28 19:33:21.088493"], ["updated_at", "2022-12-28 19:33:21.088493"]]
+  [1m[36mTRANSACTION (17.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (2.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Pão caseiro"], ["created_at", "2022-12-28 19:33:40.252331"], ["updated_at", "2022-12-28 19:33:40.252331"]]
+  [1m[36mTRANSACTION (17.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (1.9ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Pão de minuto"], ["created_at", "2022-12-28 19:33:57.701040"], ["updated_at", "2022-12-28 19:33:57.701040"]]
+  [1m[36mTRANSACTION (17.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (1.9ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Pudim de leite condensado"], ["created_at", "2022-12-28 19:34:36.077304"], ["updated_at", "2022-12-28 19:34:36.077304"]]
+  [1m[36mTRANSACTION (15.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-12-28 16:34:41 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 619)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 3103)
+Completed 200 OK in 30ms (Views: 26.0ms | ActiveRecord: 1.5ms | Allocations: 3355)
+
+
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (2.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Suflê de bacalhau"], ["created_at", "2022-12-28 19:35:26.741964"], ["updated_at", "2022-12-28 19:35:26.741964"]]
+  [1m[36mTRANSACTION (23.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (8.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Suflê de Chuchu, Abobrinha ou Cenoura"], ["created_at", "2022-12-28 19:36:00.165402"], ["updated_at", "2022-12-28 19:36:00.165402"]]
+  [1m[36mTRANSACTION (17.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (3.0ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Torta de frango"], ["created_at", "2022-12-28 19:36:31.994152"], ["updated_at", "2022-12-28 19:36:31.994152"]]
+  [1m[36mTRANSACTION (17.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (2.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Torta de sorvete"], ["created_at", "2022-12-28 19:36:44.011961"], ["updated_at", "2022-12-28 19:36:44.011961"]]
+  [1m[36mTRANSACTION (22.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-12-28 16:36:48 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 667)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 3142)
+Completed 200 OK in 25ms (Views: 21.0ms | ActiveRecord: 0.6ms | Allocations: 3393)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddColumsToRecipes (20221228194005)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (3.2ms)[0m  [1m[35mALTER TABLE "recipes" ADD "ingredients" varchar[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "recipes" ADD "cook_method" varchar[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "recipes" ADD "cook_time" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20221228194005"]]
+  [1m[36mTRANSACTION (21.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2022-12-28 16:55:59 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (3.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 1543)
+  Rendered layout layouts/application.html.erb (Duration: 86.7ms | Allocations: 16378)
+Completed 200 OK in 101ms (Views: 89.8ms | ActiveRecord: 3.6ms | Allocations: 17338)
+
+
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2022-12-28 16:57:50 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 45.0ms | Allocations: 17781)
+  Rendered layout layouts/application.html.erb (Duration: 241.5ms | Allocations: 53956)
+Completed 200 OK in 276ms (Views: 242.3ms | ActiveRecord: 6.1ms | Allocations: 59207)
+
+
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (2.1ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "ingredients" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-28 20:00:57.097412"], ["ingredients", "[\"2 xícaras chá de arroz\", \"champignon a gosto\", \"2 colheres de sopa de vinho branco seco\", \"1/2 caixa de creme de leite\", \"2 colheres de sopa de requeijão\", \"queijo parmesão a gosto\", \"sal a gosto\"]"], ["id", 1]]
+  [1m[36mTRANSACTION (18.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (2.3ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "cook_method" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-28 20:03:33.247238"], ["cook_method", "Faça o arroz do seu jeito, normalmente. Pode temperar com sal e cebola...se quiser colocar alho.Pode temperar com sal e cebola...se quiser colocar alho. Coloque manteiga numa frigideira e refogue o champignon até ficar macio. Quando ficar macio,  jogue o vinho branco e mexa um pouco...desligue o fogo. Se não usar champignon, pode jogar o vinho no arroz, misturando já com o creme de leite, o queijo parmesão e o requeijão...com o fogo ligado. Experimente para saber se precisa colocar mais sal. Provavelmente sim, porque o creme de leite vai diminuir a concentração de sal no arroz."], ["id", 1]]
+  [1m[36mTRANSACTION (18.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (1.9ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "ingredients" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-28 20:07:42.141332"], ["ingredients", "[\"1,5 kg de bacalhau salgado\", \"800 g de batatas descascadas e em fatias entre 0,5 e 1 cm\", \"1 pimentão verde cortado em tiras\", \"1 pimentão verde cortado em tiras\", \"2 cebolas grandes fatiadas\", \"2 dentes de alho picadinhos\", \"2 tomates maduros sem pele e sem semente cortados em\\npedaços grandes salsa picada\", \"100 g de azeitonas pretas sem caroço\", \"1 pitada de pimenta­do­reino\", \"3 ovos cozidos\", \"azeite para regar\", \"sal a gosto\"]"], ["id", 2]]
+  [1m[36mTRANSACTION (17.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (1.9ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "cook_time" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-28 20:08:51.277861"], ["cook_time", 90], ["id", 2]]
+  [1m[36mTRANSACTION (15.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (1.6ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "cook_method" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-28 20:14:36.946498"], ["cook_method", "Deixe o bacalhau de molho de um dia para o outro,trocando a água pelo menos 3 vezes. Desfie e reserve. Em uma panela grande, coloque as batatas, cubra com água e cozinhe por cerca de 20 minutos, com a panela tampada. Escorra, corte as batatas em rodelas finas e reserve. Em um refratário retangular untado com azeite, faça amadas, começando com os tomates, depois a cebola, as batatas, o Bacalhau, as ervilhas, os pimentões, as azeitonas e o cheiro­verde. Tempere com 1 colher (chá) de sal e 1 colher (café) de Ajinomoto, e regue com o azeite. Repita o processo e finalize com os ingredientes que restarem. Finalmente, distribua sobre a superfície as rodelas de ovo cozido, regue novamente com o azeite de oliva e leve ao forno baixo (150°), pré­aquecido, por cerca de 1 hora ou até que os ingredientes estejam al dente. Sirva em seguida. Sirva com arroz branco, salada verde e o vinho da sua preferência. Se sobrar, sirva frio no dia seguinte"], ["id", 2]]
+  [1m[36mTRANSACTION (18.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2022-12-28 17:15:15 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 827)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 3304)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 2.4ms | Allocations: 3565)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-28 17:15:18 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 678)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 3157)
+Completed 200 OK in 29ms (Views: 21.1ms | ActiveRecord: 1.9ms | Allocations: 3417)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-28 17:18:11 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 883)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 3593)
+Completed 200 OK in 33ms (Views: 28.4ms | ActiveRecord: 0.6ms | Allocations: 4460)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-28 17:19:14 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 916)
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 3624)
+Completed 200 OK in 34ms (Views: 30.3ms | ActiveRecord: 0.6ms | Allocations: 4482)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-29 08:39:17 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 85.3ms | Allocations: 17850)
+  Rendered layout layouts/application.html.erb (Duration: 372.8ms | Allocations: 53555)
+Completed 200 OK in 514ms (Views: 402.4ms | ActiveRecord: 9.4ms | Allocations: 58806)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-29 11:38:46 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 845)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 3334)
+Completed 200 OK in 30ms (Views: 25.1ms | ActiveRecord: 2.0ms | Allocations: 3595)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-29 14:08:28 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1010)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 3722)
+Completed 200 OK in 47ms (Views: 35.8ms | ActiveRecord: 1.4ms | Allocations: 4589)
+
+
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (1.9ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "cook_method" = ?, "cook_time" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:15:09.636022"], ["cook_method", "Lave as batatas. Corte em tiras finas, mantendo-as unidas na parte inferior(não aprofunde os cortes). Faça uma pasta de manteiga e os temperos e especiarias de sua preferência (alho, ervas finas, sal, azeite, queijo parmesão ralado etc). Besunte a batata com manteiga temperada e leve ao forno a 240ºC por aproximadamente 30 minuto."], ["cook_time", 30], ["id", 3]]
+  [1m[36mTRANSACTION (18.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (31.5ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "ingredients" = ?, "cook_method" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:19:36.852308"], ["ingredients", "[\"1 copo de leite\", \"4 colheres de achocolatado em pó\", \"2 colheres de margarina\", \"3 colheres de açúcar\"]"], ["cook_method", "Em uma panela, adicione o achocolatado, o açúcar e a manteiga, misture rapidamente e acrescente o leite. Mexa com uma colher de pau em fogo médio por aproximadamente 25 minutos, até obter uma consistência cremosa. Desligue o fogo e deixe esfriar por 10 minutos.Modele a massa em bolinhas e passe no chocolate granulado ou sirva em taças."], ["id", 4]]
+  [1m[36mTRANSACTION (29.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2022-12-29 14:26:11 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 822)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 3285)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 2.8ms | Allocations: 3537)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-29 14:26:13 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 681)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 3162)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.7ms | Allocations: 3422)
+
+
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (2.8ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "ingredients" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:29:00.738537"], ["ingredients", "[\"02 ovos\", \"01 copo de óleo\", \"01 colher de margarina\", \"01 copo e meio de açucar\", \"01 copo e meio de fubá\", \"02 copos de leite\", \"01 colher de pó royal\"]"], ["id", 5]]
+  [1m[36mTRANSACTION (19.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (2.0ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "cook_method" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:32:09.654559"], ["cook_method", "Bata no liquidificador os ovos, o óleo, a margarina e o açucar. Coloque o fubá e o leite e, por último, o pó royal. Ponha para assar em forno pré-aquecido por 40 minutos."], ["id", 5]]
+  [1m[36mTRANSACTION (21.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (2.0ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "ingredients" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:37:39.506642"], ["ingredients", "[\"Língua de boi\", \"sal\", \"02 cebolas grnades\", \"alho\", \"pimenta do reino\", \"01 maço de hortelã\", \"01 maço pequeno de salsa\", \"200ml de vinho tnto seco\", \"01 colher de maizena\"]"], ["id", 6]]
+  [1m[36mTRANSACTION (16.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (1.9ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "cook_method" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:42:57.011532"], ["cook_method", "Fervente a língua na panela de pressão por uns 30 minutos. Uma vez fria e descascada, corte em rodelas. Cozinhe em fogo de fervura média por mais 20 minutos. Jogue essa água fora. Novo cozimento com temperos de 02 cebolas em cubinhos, 04 dentes de alho, sal a gosto e pimenta do reino. Depois de 20 minutos em fogo baixo, desligue e coloque o maço de hortelã e o de salsa. Separe a língua e bata esse caldo no liquidificador. Volte ao fogo com o vinho e engrosse com a maizena dissolvida em água fria."], ["id", 6]]
+  [1m[36mTRANSACTION (17.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (2.1ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "ingredients" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:45:35.857083"], ["ingredients", "[\"Tempero de casa\", \"Folhas de louro\", \"Óleo\"]"], ["id", 7]]
+  [1m[36mTRANSACTION (39.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (2.0ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "cook_method" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:47:43.046833"], ["cook_method", "Tempere o lombo com o tempero de casa e as folhas de louro. Deixe de um dia para o outro. Na panela de pressão, cubra o fundo com o óleo. Esquente bastante o óleo e jogue o lombo. Vá fritando de um lado e de outro, pingando água sempre, até ficar bem cozido"], ["id", 7]]
+  [1m[36mTRANSACTION (19.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (1.5ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "ingredients" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:52:06.384894"], ["ingredients", "[\"01kg de chuchu cozido\", \"01 cebola \", \"100g de manteiga\", \"alho e cheiro verde\", \"200g de presunto picado\", \"sal e pimenta do reino\", \"02 copos de leite\", \"50g de queijo ralado\", \"04 gemas\", \"02 colheres de sopa de farinha de trigo\", \"04 claras batidas em neve\", \"farinha de rosca para polvilhar\"]"], ["id", 12]]
+  [1m[36mTRANSACTION (15.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (2.2ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "cook_method" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:55:12.276890"], ["cook_method", "Misture a farinha de trigo, o leite, as gemas, o sal, a pimenta e a manteiga. Leve ao fogo, sempre mexendo. Deixe ficar em ponto de mingau grosso. Refogue o alho e a cebola e adicione ao creme. Corte o chuchu em fatias fininhas e misture ao creme, juntamente com o queijo ralado e o presunto. Incorpore as claras em neve, mexendo levemente. Coloque em um pirex refratário, untado e polvilhado com farinha derosca. Leve ao forno para gratinar."], ["id", 12]]
+  [1m[36mTRANSACTION (16.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (2.6ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "ingredients" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 17:59:53.671191"], ["ingredients", "[\"600g de Bacalhau Desfiado Dessalgado ou 500g de Bacalhau Desfiado Salgado e Seco\", \"04 xícara de batata cozida e amassada ( purê)\", \"03 tomates sem pele e sementes picado\", \"02 cebolas\", \"02 dentes de alho\", \"01 molho de salsa picadinha\", \"01 xícara de azeite\", \"03 ovos\", \"02 colheres de sopa, bem cheias, de farinha de trigo\"]"], ["id", 11]]
+  [1m[36mTRANSACTION (17.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (2.0ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "cook_method" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 18:01:54.147293"], ["cook_method", "( Se o bacalhau é salgado e seco, deve antes ser dessalgado conforme as instruções). Refogar a cebola e o alho no azeite, acrescentar os tomates ( sem pele e sementes ) e cozinhar até dourar. Juntar o bacalhau desfiado, as azeitonas e a salsa picadinha. Reservar. Misturar o purê de batatas com a farinha de trigo e as gemas. Bater as claras em neve e misturar. Juntar o refogado do bacalhau e a assar em um refratário untado com azeite."], ["id", 11]]
+  [1m[36mTRANSACTION (17.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (1.7ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "ingredients" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 18:06:57.204617"], ["ingredients", "[\"01 lata de leite condensado\", \"02 colheres de maizena\", \"500ml de leite\", \"04 ovos\", \"01 lata de crme de leite\", \"03 colheres de chocolate em pó\", \"100ml de leite\"]"], ["id", 14]]
+  [1m[36mTRANSACTION (26.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (3.1ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "cook_method" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2022-12-29 18:09:38.346104"], ["cook_method", "Bata no liquidificador o leite condensado, a maizena, o leite e as gemas. Depois coloque em uma panela e leve ao fogo até formar um creme, mexendo sempre. Deixe esfriar. Bata 4 claras em neve, misture o creme de leite com as claras, depois misture com o creme e bata na batedeira por 5 minutos.Coloque numa forma de pudim com a calda e leve ao congelador. Calda: Misture o chocolate com o leite e leve ao fogo mexendo sempre até formar uma calda, depois espalhe no fundo de uma forma de pudim."], ["id", 14]]
+  [1m[36mTRANSACTION (20.3ms)[0m  [1m[36mcommit transaction[0m
