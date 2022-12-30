@@ -1,0 +1,15 @@
+<%= form_with model: @recipe do | f | %>
+    <%= f.label 'Nome:' %>
+    <%= f.text_field :name %><br>
+
+    <%= f.label 'Ingredientes:' %>
+    <%= f.text_area :ingredients %><br>
+
+    <%= f.label 'Modo de preparo:' %>
+    <%= f.text_field :cook_method %><br>
+
+    <%= f.label 'Tempo de preparo:' %>
+    <%= f.number_field :cook_time %><br>
+
+    <%= f.submit 'Salvar' %>
+<% end %>
