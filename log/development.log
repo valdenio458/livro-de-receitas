@@ -2232,3 +2232,54 @@ Processing by RecipesController#new as HTML
 Completed 200 OK in 40ms (Views: 35.1ms | ActiveRecord: 0.0ms | Allocations: 3928)
 
 
+Started GET "/" for 127.0.0.1 at 2022-12-30 17:37:08 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (2.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 2835)
+  Rendered layout layouts/application.html.erb (Duration: 78.1ms | Allocations: 18002)
+Completed 200 OK in 95ms (Views: 83.0ms | ActiveRecord: 3.9ms | Allocations: 19216)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2022-12-30 17:37:11 -0300
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered recipes/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1628)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 4023)
+Completed 200 OK in 31ms (Views: 27.2ms | ActiveRecord: 0.0ms | Allocations: 4718)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-30 17:37:12 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (2.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 1088)
+  Rendered layout layouts/application.html.erb (Duration: 59.0ms | Allocations: 3622)
+Completed 200 OK in 69ms (Views: 58.0ms | ActiveRecord: 2.7ms | Allocations: 3877)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2022-12-30 17:37:13 -0300
+Processing by RecipesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/new.html.erb within layouts/application
+  Rendered recipes/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1316)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 3687)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-30 17:37:14 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/home/index.html.erb:4
+  Rendered home/index.html.erb within layouts/application (Duration: 17.7ms | Allocations: 1082)
+  Rendered layout layouts/application.html.erb (Duration: 43.4ms | Allocations: 3604)
+Completed 200 OK in 48ms (Views: 44.1ms | ActiveRecord: 1.0ms | Allocations: 3857)
+
+
